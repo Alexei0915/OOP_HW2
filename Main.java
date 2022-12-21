@@ -3,7 +3,7 @@ public class Main {
         Zoo zoo = new Zoo();
         zoo.addAnimal(new Cat("Dimka", 4, "Oleg"))
                 .addAnimal(new Dog("Tuzik", 4, "Petya"))
-                .addAnimal(new Swan("Gosha", 2, "Vasilisa"))
+                .addAnimal(new Otter("Marcus", 2, "Alexi"))
                 .addAnimal(new Duck("Donald", 2, "Ivan"))
                 .addAnimal(new Eagle("Trut", 2, "Sasha"));
         System.out.println(zoo.toString());
